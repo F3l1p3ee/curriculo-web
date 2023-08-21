@@ -1,5 +1,26 @@
 .fundo-side-bar {
-    border: 3px blue solid;
+    background-color: #b7d2b6;
     width: 25%;
     height: 100vh;
+}
+
+/* Para centralizar a imagem */
+.profile-picture {
+    display: grid;
+    justify-items: center;
+    padding-top: 12px;
+}
+
+/* Para organizar a imagem */
+.profile-picture > img {
+    height: 130px;
+    border-radius: 80px;
+}
+
+/* Estilização do meu nome */
+.profile-picture > p {
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
 }
