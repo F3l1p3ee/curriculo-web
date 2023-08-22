@@ -16,12 +16,12 @@
 .profile-picture > img {
     height: 130px;
     border-radius: 80px;
-    border: 4px solid aquamarine;
+    border: 4px solid black;
 }
 
 /* Estilização do meu nome */
 .profile-picture > p {
-    margin: 10px;
+    margin: 10px 10px 0px 10px;
     font-size: 25px;
     font-weight: bolder;
     color: white;
@@ -30,6 +30,7 @@
 .profile-picture > p:nth-child(3) {
     font-size: 20px;
     margin-top: 0px !important;
+    margin-bottom: 20px !important;
 }
 
 /* ---------------------------------- */
@@ -55,7 +56,12 @@
 
 /* ---------------------------------- */
 
-.profile-contact > img {
+.profile-contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-contact > a > img {
     height: 35px;
 }
 
