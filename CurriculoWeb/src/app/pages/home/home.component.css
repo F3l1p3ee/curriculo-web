@@ -1,3 +1,11 @@
 .fundo-home{
-    height: 100vh;
+    display: flex;
+}
+
+.side-bar-container {
+    width: 25%;
+}
+
+.teste {
+    width: 75%;
 }
