@@ -1,0 +1,35 @@
+.card {
+    border: 3px solid blue;
+    border-radius: 30px;
+    width: 400px;
+    height: 250px;
+    margin-top: 15px;
+}
+
+.job-title {
+    display: flex;
+    justify-content: space-between;
+    background: red;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 0.5rem;
+}
+
+.job-title > h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+.job-title > img {
+    height: 40px;
+    background-color: white;
+    border-radius: 23px;
+    padding: 5px;
+}
+
+/* ---------------------------------------- */
+
+.card-title {
+    
+}
